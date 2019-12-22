@@ -1,0 +1,633 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.muicss.com/mui-0.10.0/css/mui.min.css" rel="stylesheet" type="text/css" media="screen" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.muicss.com/mui-0.10.0/js/mui.min.js"></script>
+  <script src="nav.js"></script>
+</head>
+
+<body>
+  <div class="mui-appbar header">
+    <table width="100%">
+      <tr style="vertical-align:middle; font-size:18px">
+        <td class=" mui--appbar-height"><button class="header-button" onclick="navClicked('resume')">
+            <i class="fa fa-home" style="font-size:28px;" />
+          </button></td>
+        <td class="mui--appbar-height">
+          <button class="header-button" onclick="navClicked('about-me')">About Me</button>
+        </td>
+        <td class="mui--appbar-height">
+          <button class="header-button" onclick="navClicked('profile-highlights')">Profile Highlights</button>
+        </td>
+        <td class="mui--appbar-height"><button class="header-button"
+            onclick="navClicked('education')">Education</button></td>
+        <td class="mui--appbar-height"><button class="header-button"
+            onclick="navClicked('appointments')">Appointments</button></td>
+
+        <td class="mui--appbar-height">
+          <div class="mui-dropdown">
+            <button class="header-button" data-mui-toggle="dropdown">
+              Research
+              <span class="mui-caret"></span>
+            </button>
+            <div class="mui-dropdown__menu">
+              <button class="menu-button" onclick="navClicked('research-interests')">Research
+                Interests</button>
+              <button class="menu-button" onclick="navClicked('research-funding')">Research
+                Funding</button>
+              <button class="menu-button" onclick="navClicked('research-collab')">
+                Research Collaboration</button>
+              <button class="menu-button" onclick="navClicked('research-supervision')">
+                Research Supervision</button>
+              </ul>
+            </div>
+        </td>
+        <td class="mui--appbar-height"><button class="header-button" onclick="navClicked('patents')">Patents</button>
+        </td>
+        <td class="mui--appbar-height"><button class="header-button" onclick="navClicked('awards')">Awards and
+            Recognition</button>
+        </td>
+        <td class="mui--appbar-height"><button class="header-button"
+            onclick="navClicked('specialty')">Specialty</button>
+        </td>
+        <td class="mui--appbar-height"><button class="header-button"
+            onclick="navClicked('activities')">Activities</button>
+        </td>
+        <td class="mui--appbar-height"><button class="header-button" onclick="navClicked('teaching')">Teaching
+            Summary</button>
+        </td>
+        <td class="mui--appbar-height"><button class="header-button"
+            onclick="navClicked('publications')">Publications</button></td>
+        <!-- <td class="mui--appbar-height"><button onclick="navClicked('referecences')">References</button></td> -->
+      </tr>
+    </table>
+  </div>
+  <div id="resume">
+
+    <div class="section-div section-content">
+      <div>
+        <h1>Dr Himanshu Agrawal</h1>
+        <p>Cell: <a href="tel: +61 434388538">+61 434388538</a></p>
+        <p>Email: <a href="mailto: hagrawal@swin.edu.au">hagrawal@swin.edu.au</a></p>
+        <p>Address: Address: 5/30 Elm Street Hawthorn VIC-3122</p>
+        <p>Visa Status: Australian Permanent Resident</p>
+      </div>
+      <img src="#" alt="Add image">
+    </div>
+
+    <div id="about-me">
+      <div class="section-header">
+        About me
+      </div>
+      <div class="section-content">
+        <p>
+          A motivated teacher and passionate researcher in multidisciplinary research domains including Internet of
+          Things, IoT security, AI, networking with key focus on solving engineering problems having societal impact in
+          collaboration with industry.
+        </p>
+      </div>
+    </div>
+
+    <div id="profile-highlights">
+      <div class="section-header">
+        Profile Highlights
+      </div>
+      <div class="section-content">
+        <ul type="circle">
+          <li>Authored 45+ research articles in numerous refereed journals and conferences</li>
+          <li>Filed a patent on “Drown Support System” in July 2019.</li>
+          <li>Successfully supervised two PhD thesis till completion.</li>
+          <li>Featured by Microsoft as Green Warriors for sustainable future under AI for Earth grant in September
+            2018.</li>
+          <li>Demonstrated experience of fetching two grants as PI on IoT based water quality information management
+            system by Microsoft and Symbiosis International University.</li>
+          <li>Founder academic for development IoT research lab at Symbiosis Institute of Technology in 2017 and
+            contributed in
+            development of UG Hons in Internet of Things. First to start a unit on Internet of Things with a proper
+            research lab
+            across various institutions in Pune.</li>
+          <li>Strong focus on industry-academia collaboration for research and innovations.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="education">
+      <div class="section-header">
+        Education
+      </div>
+      <div class="section-content">
+        <h2>Doctor of Philosophy (2010)</h2>
+        <p>RMIT University, Melbourne, Australia
+          Thesis advisors: Andrew Jennings and Mark Gregory
+          Thesis Title: “Robust Routing under Dynamic Traffic Demands”
+        </p>
+        <h2>Master of Technology (2003)</h2>
+        <p>School of Electronics, Devi Ahilya University, Indore, India
+          Thesis Title: Simulation study of dynamic queuing in
+          TCP/IP. Result: First class with distinction (CGPA 8.45/10)
+        </p>
+      </div>
+    </div>
+
+    <div id="appointments">
+      <div class="section-header">
+        Appointments (Academic: 20.5 years and Industry: 3.5 years)
+      </div>
+      <div class="section-content">
+        <h2>August 2019-till date: Visiting Associate Professor IoT lab Swinburne University of Technology</h2>
+        <h3>Key responsibility: </h3>
+        <ul type="circle">
+          <li>Involvement as Senior researcher on a CRCP project.</li>
+          <li>Teaching, IoT programming unit in Semester I 2020</li>
+        </ul>
+        <h2>August 2011- August 2019: Associate Professor, Symbiosis International University, India</h2>
+        <h3>Key responsibilities: </h3>
+        <ul type="circle">
+          <li>Development of curriculum for undergraduate and postgraduate programs of Computer Science.</li>
+          <li>Development of course contents and successfully delivery of the courses; IoT, Wireless Communication and
+            Mobile Computing, Network Security, Network Computing, AI.</li>
+          <li>Active engagement in Innovation and Institute’s best practices.</li>
+          <li>Supervision of UG and PG students on academic and projects in collaboration with industry.</li>
+          <li>Research supervision to PhD students.</li>
+          <li>Administrative responsibilities: Program Evaluator, National Board of Accreditation (Govt. of India),
+            Academia-Industry interface in charge, member of Board of Studies, member Research Advisory Committee,
+            Incharge Internal Quality Assurance Cell for Innovations and Best Practices.</li>
+        </ul>
+        <h2>February 2006- June 2011, Sessional Teaching Staff, RMIT University Australia</h2>
+        <h3>Key responsibilities: </h3>
+        <ul type="circle">
+          <li>Planning and preparation for the lab units.</li>
+          <li>Delivery and demonstration of lab tasks for the courses; Digital Access System, Network Engineering,
+            Embedded Systems.</li>
+          <li>Delivery of tutorial (two hours per week) for the course Mechatronics.</li>
+          <li>Marking and grading students on lab performance and quizzes.</li>
+        </ul>
+        <h2>March 1999- Jan 2006, Lecturer, Institute of Engineering and Technology, Devi Ahilya University, Indore,
+          India</h2>
+        <h3>Key responsibilities: </h3>
+        <ul type="circle">
+          <li>Development of course material and delivery of lectures.</li>
+          <li>Taught courses on Networking and Wireless Communication</li>
+          <li>Supervision of project to undergraduate and master’s students.</li>
+          <li>Engagement in students learning through Continuous Assessment, marking, grading, and feedback of
+            students.</li>
+        </ul>
+        <h3>
+          Industry experience: April 1995-Oct 1998: Instrumentation Engineer, Shree Synthetics Ltd, Ujjain, India.
+        </h3>
+      </div>
+    </div>
+
+    <div id="research-interests">
+      <div class="section-header">
+        Research Interests
+      </div>
+      <div class="section-content">
+        <ul type="circle">
+          <li>Internet of Things</li>
+          <li>IoT security</li>
+          <li>Security and Privacy Preservation in IoT applications</li>
+          <li>Edge and Fog computing</li>
+          <li>Machine learning/AI applications to networking and Cybersecurity</li>
+          <li>Modeling and simulation of IoT and wireless broadband traffic</li>
+          <li>Low Power WAN</li>
+          <li>Blockchains</li>
+
+        </ul>
+      </div>
+    </div>
+
+    <div id="specialty">
+      <div class="section-header">
+        Specialty
+      </div>
+      <div class="section-content">
+        <ul type="circle">
+          <li>Modeling and simulation of Internet and mobile broadband traffic.</li>
+          <li>Security and privacy in IoT applications</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="research-funding">
+      <div class="section-header">
+        Research Funding
+      </div>
+      <div class="section-content">
+        <ul type="circle">
+          <li>Himanshu Agrawal, Atul Kulkarni, Nilesh Kumbhojkar, Rushikesh Kulkarni: USD 5000, Microsoft under AI for
+            Earth for the project title: Smart Environment Information and Management System- A step towards Smart City
+            (2018 - 2019)
+          </li>
+          <li>Himanshu Agrawal, Atul Kulkarni: 10,000,000 INR, major research grant by Symbiosis International
+            University for the development of in-house water quality sensing system using IoT platform at Symbiosis
+            International University waterreservoir in March 2019.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="patents">
+      <div class="section-header">
+        Patents in Progress
+      </div>
+      <div class="section-content">
+        <ul type="circle">
+          <li>Filed a patent on “Drown Support System” in July 2019.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="research-collab">
+      <div class="section-header">
+        Research Collaboration
+      </div>
+      <div class="section-content">
+        <ul type="circle">
+          <li>Dr Vidyasagar Potdar, Senior Research Fellow, Director Blockchain Lab Curtin University on “Lightweight
+            privacy preservation for prosumer side in Smart Grid network”
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="awards">
+      <div class="section-header">
+        Awards and Recognition
+      </div>
+      <div class="section-content">
+        <ul type="circle">
+          <li>Best paper award of AUD 500 by IEEE Victoria section in 2007.</li>
+          <li>International travel grant of USD 2000 for the presentation of research paper in an International
+            Conference EUSPN 2018 during November 5-8, 2018 to travel to Belgium.</li>
+          <li>Outstanding reviewer recognition by Journal of Network and Computer Applications in the year 2016 and 2018
+            respectively.
+          </li>
+          <li>
+            Featured by Microsoft as Green Warriors for Sustainable Future in September 2018.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="activities">
+      <div class="section-header">
+        Professional Activities and Industry Engagement
+      </div>
+      <div class="section-content">
+        <h2>Invited speaker</h2>
+        <ul type="circle">
+          <li>“Mathematical models for the robustness in Internet traffic, School of Mathematics and Geospatial Science
+            Colloquium, RMIT University, October 2010.</li>
+          <li>“Research trends in Internet of Things”, MMCoE Pune, February 2016.</li>
+          <li>Keynote speaker, “Internet of Things for the connected digital world”, RAIT, Nerul, Mumbai, June 2016.
+          </li>
+        </ul>
+        <h2>Research services as reviewer and TPC member</h2>
+        <ul type="circle">
+          <li>Reviewer, Journal of Network and Computer Applications since 2010 till date.</li>
+          <li>Reviewer, Neurocomputing journal, 2019.</li>
+          <li>Reviewer, IEEE Communication Letters, 2015.</li>
+          <li>Reviewer, Internet of Things Journal, Elsevier, 2019.</li>
+          <li>PhD thesis reviewer of Dinusha Ratnayake, Curtin University, October 2014.</li>
+          <li>PhD thesis reviewer of Dinusha Ratnayake, Curtin University, October 2014.</li>
+          <li>Track chair-Industry 4.0, IEEE PuneCon December 2018.</li>
+          <li>Session Chair, IEEE INDICON, Pune 2014.</li>
+          <li>Program Committee member: ICUWB 2017, ACC 2014.</li>
+        </ul>
+        <h2>Industry engagement</h2>
+        <ul type="circle">
+          <li>Academic-Industry interface in charge, SIT, Symbiosis International University, 2011-2014.</li>
+          <li>SIT-Mahindra Innovation club for collaborative research activities in IoT in 2013.</li>
+          <li>Phi-Robotics Research India Ltd, Thane for IoT research lab set-up during 2015-2017.</li>
+          <li>NISG, C-DAC Pune for one-year research project on Smart City project during 2014-15.</li>
+          <li>NDA with KPIT Hinjewadi, Pune in 2018 for collaborative research on AI and Deep Learning for
+            semi-autonomous vehicles.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="research-supervision">
+      <div class="section-header">
+        Research Supervision
+      </div>
+      <div class="section-content">
+        <h2>PhD thesis supervision (As primary guide)</h2>
+        <h3>Supervised successfully till completion: 03</h3>
+        <ul type="circle">
+          <li>Aarti Agarkar in March 2019.</li>
+          <li>Abhaya Pal Singh November 2019.</li>
+          <li>Shilpa Gite November 2019.</li>
+        </ul>
+        <h3>Research services as reviewer and TPC member</h3>
+        <h3>PhD thesis submitted: 01</h3>
+        <ul type="circle">
+          <li>Vijayalakshmi Chetlapalli, June 2019</li>
+        </ul>
+        <h3>PhD Thesis near submission: 02</h3>
+        <h3>Master’s thesis supervision and Undergraduate research</h3>
+        <ul type="circle">
+          <li>Supervision with successful completion: 15</li>
+          <li>Undergraduate research guidance: 30+</li>
+        </ul>
+        <h3>Research guidance to Hons. Student at Swinburne University</h3>
+        <ul type="circle">
+          <li>Currently guiding Mohammad Carter, a Computer Science Hons. Student at Swinburne in a team on
+            “Implementation platform for encryption-based privacy preservation for IoT applications”.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="teaching">
+      <div class="section-header">
+        Teaching Summary
+      </div>
+      <div class="section-content">
+        <h2>Full Capacity (Post PhD)</h2>
+        <h3>2011-2019: Associate Professor at Symbiosis International University and have successfully demonstrated
+          learning and teaching for the followings courses:</h3>
+        <ul type="circle">
+          <li>Internet of Things course: Course convener, Development of course material and delivery-both lectures and
+            lab demonstrations, and grading to master’s students of Computer Science in 2016, 2017, 2018.</li>
+          <li>Artificial Intelligence: Course convener, development of course material and delivery of (only) lectures
+            to undergraduate students of Computer Science, Symbiosis International University in 2018 and 2019.</li>
+          <li>Network Security: Course convener, development of course material, marking/grading, to undergraduate
+            students of Computer Science, Symbiosis International University in 2017 and 2018.</li>
+          <li>Computer Networks: Course convener, development of course material, marking/grading to undergraduate
+            students of Computer Science, Symbiosis International University in 2015 and 2016.</li>
+          <li>Wireless Communication and mobile computing: Course convener, development of course material,
+            marking/grading to master’s students of Computer Science in 2011, 2012, 2013, and 2014.</li>
+        </ul>
+        <h2>Sessional Teaching (during PhD and after PhD thesis submission)</h2>
+        <h3>2006-2011: Sessional Academic, RMIT University Australia</h3>
+        <ul type="circle">
+          <li>2006-2008: successful delivery of lab sessions for the courses Network Engineering, Digital Access
+            Systems, Embedded Systems.</li>
+          <li>2008-2009: Digital systems.</li>
+          <li>2010-2011: Successful delivery of tutorial for the course Mechatronics.</li>
+        </ul>
+        <h2>Full Capacity (Pre PhD)</h2>
+        <ul type="circle">
+          <li>1999-2006: developed course syllabus and delivered courses including Computer Networks, Advance Computer
+            Networks, and Embedded Systems to undergraduate and masters students at Institute of Engineering and
+            Technology, Indore, India.</li>
+        </ul>
+      </div>
+    </div>
+    <div id="publications">
+      <div class="section-header">Publications</div>
+      <div class="section-content">
+        <h2>Year-wise publications 2007-2019</h2>
+        <h3>Year 2019</h3>
+        <p>
+          <strong> Conference paper: </strong> Ali Yavari, Dimitrios Georgakopoulos, Himanshu Agrawal, Prem
+          Prakash
+          Jayaraman, Josip Karabotic Milovac, The 34 th International Conference on Information Networking
+          (ICOIN 2020), Accepted (November 2019).
+        </p>
+        <p>
+          <strong> Journal article: </strong> Vijayalakshmi Chetlapalli, H. Agrawal, K.S.S. Iyer, “Modelling
+          time-dependent
+          aggregate traffic in 5G networks”, Telecommunication Systems (2019), DOI: <a href="http://doi.org/
+          10.1007/s11235-019-00629-w">http://doi.org/10.1007/s11235-019-00629-w</a>. (Impact Factor – 1.7, Q2, SCI
+          indexed, H index-42)
+        </p>
+        <p>
+          <strong> Journal article: </strong> Himanshu Agrawal, Ruchi Dhall, K.S.S. Iyer, Vijayalakshmi
+          Chetlapalli. “Improved
+          Energy Efficient duty cycling algorithm for IoT based precision Agriculture”, Journal of Ambient
+          Intelligence and Humanized Computing, June 2019. DOI: 10.1007/ s12652-019-01359-2. (Impact
+          Factor-1.910, Q2 in Computer Science, SCI Indexed, H index -23)
+        </p>
+        <p>
+          <strong> Journal article: </strong> Aarti Agarkar, Himanshu Agrawal. “LRSPP: Lightweight R-LWE based
+          Security
+          and Privacy Preservation Scheme for Prosumer-Side Smart Grid Network”, Heliyon Journal, 5(3),
+          March 2019. DOI: <a
+            href="https://doi.org/10.1016/j.heliyon.2019.e0132">https://doi.org/10.1016/j.heliyon.2019.e0132</a> (Q1,
+          Elsevier, Web of Science)
+        </p>
+        <p>
+          <strong> Journal article: </strong> Aarti Agarkar, Himanshu Agrawal. “Lightweight R-LWE based Privacy
+          Preservation Scheme for Smart Grid Network”. International Journal of Information and Computer
+          Security, 11(3), Jan 2019. DOI: 10.1504/IJICS.2019.10019163. (Scopus)
+        </p>
+        <p>
+          <strong> Journal article: </strong> Abhaya Pal Singh, Dipankar Deb, H. Agrawal, “On Selection of
+          Improved
+          Fractional Model and Control of Different Systems with Experimental Validation”. Communications
+          in Nonlinear Science and Numerical Simulation, 79 (2019).
+          <a href="https://doi.org/10.1016/j.cnsns.2019.104902">https://doi.org/10.1016/j.cnsns.2019.104902</a>. (Impact
+          Factor- 3.967, Q1 Modeling and
+          Simulation, SCI indexed, H index-96)
+        </p>
+        <p>
+          <strong> Journal article: </strong> Poonam Chaudhary, Himanshu Agrawal, Ketan Kotecha, “Data
+          augmentation using
+          MG-GAN for improved cancer classification on gene expression data”. Soft Computing (2019). DOI
+          10.1007/s00500-019-04602-2. (Impact Factor: 2.784, Q2, SCI, H index-64)
+        </p>
+        <p>
+          <strong> Journal article: </strong> Shilpa Gite, Himanshu Agrawal, Ketan Kotecha. “Early anticipation
+          of driver’s
+          maneuver in semi- autonomous vehicles using deep learning”, Progress in Artificial Intelligence, 7(24),
+          pp 1-13, March 2019. <a
+            href="https://doi.org/10.1007/s13748-019-00177-z">https://doi.org/10.1007/s13748-019-00177-z</a>. (Springer,
+          Scopus)
+        </p>
+        <p>
+          <strong> Journal article: </strong> Aarti Agarkar, Himanshu Agrawal. “A survey and vision on
+          authentication and
+          privacy preservation schemes for Smart Grid network”. Security and Privacy, 2 (2) March 2019. DOI:
+          10.1002/spy2.62.
+        </p>
+        <p>
+          <strong> Journal article: </strong> Shilpa Gite, Himanshu Agrawal. Early Prediction of Driver’s
+          Action using Deep
+          Neural Net- works. International Journal of Information Retrieval Research, 9(2), pp 1-17, 2019.
+          (Web of Science)
+        </p>
+        <p>
+          <strong> Journal article: </strong> Agrawal, P., H. Agrawal, and V. Potdar. &quot;A novel
+          bio-inspired algorithm for
+          hunting in multi robot scenario”. Indonesian Journal of Electrical Engineering and Computer
+          Science 15 (3): 1553-1563, September 2019. (Q-3, Scopus)
+        </p>
+        <p>
+          <strong> Journal article: </strong> Chaudhari, P., Agarwal, H. &amp; Bhateja, V. Evol. Intel. (2019).
+          <a href="https://doi.org/10.1007/s12065-019-00283-w">https://doi.org/10.1007/s12065-019-00283-w</a>. (ERA-C,
+          Scopus/ESCI, H-19, IF-0.7)
+        </p>
+        <h3>Year 2018</h3>
+        <p>
+          <strong> Journal article: </strong> Poorva Agrawal, Himanshu Agrawal. “Adaptive Algorithm Design for
+          Cooperative
+          Hunting in Multi- Robot”, International Journal of Intelligent Systems and Applications. 10(12),
+          2018. (Q2 in Computer Network and Communications, SJR-0.34, Scopus)
+        </p>
+        <p>
+          <strong> Journal article: </strong> Abhaya Pal, H. Agrawal, “A Fractional Model Predictive Control
+          Design for 2-D
+          Gantry Crane System”, Journal of Engineering Science and Technology, 13(7), 2224-2235, July 2018.
+          (Q2, Web of Science, Scopus, ESI).
+        </p>
+        <p>
+          <strong> Journal article: </strong> Dawit Uta Urku, Himanshu Agrawal. “Smart Real-Time Indoor Air
+          Quality
+          Sensing System and Analytics”, International Journal of Engineering and Technology,10(6), Dec
+          2018. DOI: 10.21817/ijet/2018/v10i6/181006200. (Q3, SJR:0.14)
+        </p>
+        <p>
+          <strong> Journal article: </strong> Yonas Birku, Himanshu Agrawal. “Survey on fall detection
+          systems”,
+          International Journal of Pure and Applied Mathematics, 118(18), 2018. (Q4, Scopus)
+        </p>
+        <p>
+          <strong> Conference paper: </strong> Ruchi Dhall, Himanshu Agrawal. “An improved energy efficient
+          duty cycling
+          algorithm for IoT based precision agriculture”. The 9th International Conference on Emerging Ubiquitous
+          Systems and Pervasive Networks (EUSPN 2018), pp 135-142, Leuven, Belgium, November 2018.
+        </p>
+        <p>
+          <strong> Conference paper: </strong> Tushar Mane, Himanshu Agrawal, Gurmeet Sigh Gill. “Enhancing
+          Usability of
+          Cloud Storage Clients with Dew Computing”, In Proc: The 3rd International Workshop on Dew
+          Computing, Toronto, Canada, 2018.
+        </p>
+        <p>
+          <strong> Conference paper: </strong> Aarti Agarkar, Himanshu Agrawal, “J-PAKE and ECC based
+          authentication
+          protocol for smart grid network”, Communications in Computer and Information Science, Springer,
+          Vol 906, pp 507-522, DOI 978-981-13-1813-9_51,2018.
+        </p>
+        <p>
+          <strong> Conference book series: </strong> Chaudhari P., Agarwal H. (2018) “Improving Feature
+          Selection Using Elite
+          Breeding QPSO on Gene Data set for Cancer Classification”, Intelligent Engineering Informatics.
+          Advances in Intelligent Systems and Computing, vol 695. pp 209-219, Springer, Singapore.
+        </p>
+        <h3>Year 2017</h3>
+        <p> <strong> Journal article: </strong> Prathik Sargar, Himanshu Agrawal, Suman Mohandaas.
+          “Implementation of Real
+          Time Operating System based 6-degree of freedom Missile Trajectory Simulation”, Global Journal of
+          Pure and Applied Mathematics, 13(7),2017. (Q4, SJR-0.12, Scopus)</p>
+        <p> <strong> Journal article: </strong> Abhaya Pal Singh, Trisha Shrivastava, Himanshu Agrawal, Pallavi
+          Shrivastava.
+          “Fractional Order Controller design and Analysis of Crane System”, Progress in Fractional Differential
+          and Application, 2( 2), pp 155-162, 2017. (Scopus)</p>
+        <p> <strong> Conference paper: </strong> Vijayalakshmi, K.S.S. Iyer, Himanshu Agrawal. “A new approach to
+          modelling
+          time-dependent problems in wireless broadband networks”, In Proceedings of 18 th ACM MobiHoc,
+          Chennai 2017.</p>
+        <p> <strong> Conference paper: </strong> Tushar Mane, Himanshu Agrawal. “Cloud-Fog-Dew architecture for
+          redefined
+          driving assistance A complete service computing ecosystem”. 17th IEEE International Conference
+          on Ubiquitous Wireless Broadband, ICUWB 2017, Salamanca, Spain, 2017.
+        </p>
+        <h3>Year 2016</h3>
+        <p> <strong> Conference paper: </strong> Vijayalakshmi Chetlapalli, K. S.S. Iyer, Sunil Patil, Himanshu
+          Agrawal.
+          “Estimation of diurnal bandwidth requirement using random point process and product density”,
+          Future Technologies Conference (FTC 2016), San Francisco, California, USA, 2016.</p>
+        <p> <strong> Conference paper: </strong> Aarti Agarkar, Himanshu Agrawal. “R-LWE based privacy
+          preservation scheme
+          for Smart Grid”, IEEE International Conference on Computing, Analytics, and Security Trends, CAST
+          2016, Pune, India, 2016.</p>
+        <p> <strong> Conference book series: </strong> A. P. Singh, H. Agrawal, On modelling and Analysis of
+          Launch Vehicle
+          System, Lecture notes in Electrical Engineering, Springer, Volume 2, pp 273-279, DOI: 978-81-322-
+          3589-7_30, 2016.</p>
+        <p> <strong> Conference book series: </strong> Umang Nanda, Shrey Rajput, Himanshu Agrawal, Antriksh
+          Goel, Mohit
+          Gurnani, “On context awareness and analysis of various algorithms”, Advances in Intelligent
+          Systems and Computing, Springer, Volume 3, pp 85-93, DOI:978-81-322-2526-3_19, 2016.</p>
+        <p> <strong> Conference book series: </strong> Anurag Joshi, Himanshu Agrawal, Poorva Agrawal,
+          “Simultaneous
+          localization and Mapping for visually impaired for outdoor environments”, Advances in Intelligent
+          Systems and Computing, Springer, Volume 3, pp 85-93, DOI: 978-81-322-2526-3_12, 2016.</p>
+        <p> <strong> Conference book series: </strong> Shilpa Gite, Himanshu Agrawal, “On context-awareness for
+          multi-
+          sensor data fusion in IoT” Advances in Intelligent Systems and Computing, Springer, Volume 3, pp
+          85-93, DOI 978-81-322-2526-3_10, 2016.
+        </p>
+        <h3>Year 2015</h3>
+        <p> <strong> Journal article: </strong> A.P. Singh, H. Agrawal, P. Shrivastava. “Fractional Order
+          Controller for Inverted
+          Pendulum On A Cart System (POAC)”, WSEAS Transactions on Systems and Control, Vol 10, pp172-
+          178, 2015.</p>
+        <p> <strong> Journal article: </strong> Sagar Sukode, Shilpa Gite, H. Agrawal. “Context Awareness in IoT-
+          A survey”.
+          International Journal of Advanced Trends in Computer Science and Engineering, 4 (1), 2015.</p>
+        <p> <strong> Journal article: </strong> Archana Solanki, Himanshu Agrawal, Kanchan Khare. “Predictive
+          analysis of water
+          quality parameters using Deep Learning”, International Journal of Computer Applications, Volume 125
+          (9), pp 29-34, September 2015.</p>
+        <p> <strong> Journal article: </strong> T. Shrivastava, A. P. Singh, H. Agrawal. Modelling the
+          under-actuated mechanical
+          system with Fractional Order Derivative. Progress in Fractional Differentiation and Applications: An
+          International Journal, 1(1), pp 57-64, 2015.</p>
+        <p> <strong> Journal article: </strong> Vaidehi Dudhwadkar, Himanshu Agarwal, Aarti Agarkar, Pratish Ray.
+          “On
+          Lightweight authentication for Smart Grid Network”, International Journal of Computer
+          Applications,123 (5), pp 1-6, 2015.</p>
+        <p> <strong> Conference book series: </strong> Pranoti Meshram, Nisha Auti, Himanshu Agrawal, “Monitoring
+          Driver’s
+          Head Posture to Control risk of accidents”, Elsevier Procedia Computer Science, Vol 50, Pages 617-
+          622, March 2015.</p>
+        <p> <strong> Conference paper: </strong> Sumit Garethiya, Himanshu Agrawal, Shilpa Gite, Suresh V, Amit
+          Kudale,
+          Gaurav Wable and Girish chandra Yendargaye. Affordable System for Alerting, Monitoring and
+          Controlling Heat Stroke inside Vehicles. In Proc. IEEE International Conference on Instrumentation
+          and Control ICIC, Pune, 2015.
+        </p>
+        <h3>Year 2014</h3>
+        <p> <strong> Conference paper: </strong> Pranav Sharan, Mohit Mutyal, H. Agrawal, Poorva Agrawal,
+          “Simulation Study
+          of Intelligent Transportation System”, IEEE INDICON Pune, 2014.</p>
+        <p> <strong> Conference paper: </strong> Vijayalakshmi Chetlapalli, K.S.S. Iyer, H. Agrawal, Sunil Patil,
+          “Random Point
+          Process Model for Time Dependent Cumulative bandwidth requirements in wireless broadband
+          networks, IEEE INDICON, Pune, 2014.</p>
+        <p> <strong> Journal article: </strong> A. A. Agarkar, H. Agrawal, Shilpa Shelke. “Survey on
+          Authentication schemes in
+          Smart Grid Network”, International Journal of Engineering Technology and Computer Research,
+          2(7), pp 15-20, 2014.
+        </p>
+        <h3>Year 2013</h3>
+        <p> <strong> Journal article: </strong> Poorva Agrawal, Himanshu Agrawal. A Review on Multi robot
+          Cooperation
+          using Bio-Inspired Neural Networks. International Journal of Soft Computing, Mathematics and Control,
+          IJSCMC, Wireilla, 2013. </p>
+        <h3>2007-2012</h3>
+        <p> <strong> Journal article: </strong> H. Agrawal, A. Jennings. Evaluation of robust routing under
+          dynamic traffic demands. Journal of Network and System Management, 19(4), pp 513-528, 2011 (SCI,
+          IF-1.676).</p>
+        <p> <strong> Conference paper: </strong> H. Agrawal, M. Grah, M. Gregory, “Optimization of QoS routing.
+          In Proc. 6th IEEE/ACIS International conference on Computer and Information Science, Melbourne, 2007.
+        </p>
+        <p> <strong> Conference paper: </strong> H. Agrawal, A. Jennings. Robust Solution for Optimal Routing. In
+          IEEE Advanced Networks and Telecommunication Systems conference IEEE-ANTS, Mumbai, 2007.</p>
+        <p> <strong> Conference paper: </strong> H. Agrawal, A. Jennings and M. Gregory. Robust Traffic
+          Engineering. In IEEE Advanced Networks and Telecommunication Systems conference IEEE-ANTS, pp. 1-3,
+          Mumbai, 2008.</p>
+        <p> <strong> Conference paper: </strong> H. Agrawal, A. Jennings, M. Gregory, D. Channa. Robust Routing.
+          In Seventh IEEE/ACIS International Conference on Computer and Information Science, pp. 695-700,
+          Portland, Oregon, USA, 2008. </p>
+        </p>
+      </div>
+    </div>
+
+    <!-- <dl>
+            <dt id="referecences">References
+            <dd>Dr. Vidyasagar Potdar, Senior Research Fellow, Bentley Campus, Curtin Business School,
+              Curtin University Australia. Phone: 08 9266 9847, Email: vidyasagar.potdar@cbs.curtin.edu.au. </dd>
+            <dd>Dr. Mark Gregory, Associate Professor and Leader Network Engineering Group. RMIT
+              University, Australia. Phone: 99253243, Email: mark.gregory@rmit.edu.au. </dd>
+          </dl> <br /> -->
+
+  </div>
+</body>
+
+</html>
